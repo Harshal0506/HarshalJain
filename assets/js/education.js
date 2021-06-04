@@ -5,65 +5,26 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
-  },
-  {
-    title: "Cryptography",
+    title: "Udemy",
     cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "#",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Coding Blocks",
+    cardImage: "assets/images/education-page/CB.jpg",
+    moocLink: "#",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Coding Ninjas",
+    cardImage: "assets/images/education-page/CN.jpg",
+    moocLink: "#",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Youtube Creators ",
+    cardImage: "assets/images/education-page/youtube.jpg",
+    moocLink: "#",
   },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/EdX.png",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+  
 ];
 
 const experience = [
@@ -117,7 +78,7 @@ const showCards = () => {
             <div class="card mb-3 mx-auto">
                <div class="content">
                   <div class="content-overlay"></div>
-                    <img src=${cardImage} class="card-img-top content-image">     
+                    <img src=${cardImage} class="card-img-top content-image" height="200" width="192">     
                   <div class="content-details fadeIn-bottom">
                     <a href="${moocLink}" target="_blank"><i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: white;"></i></a>                                   
                   </div>
@@ -155,20 +116,20 @@ const badgesection = [
   },
 ];
 
-const showCards1 = () => {
-  let output = "";
-  badgesection.forEach(
-    ({ title, image, description }) =>
-    (output += `       
-      <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
-        <img class="img-fluid d-block mb-3 mx-auto hvr-grow" src="${image}" alt="Card image cap" width="200">
-          <div class="text-center font-weight-bolder" style="font-size: 1.3em;">${title}</div>
-          <div class="text-center text-muted font-weight-bolder p-2">${description}</div>
-      </div>`)
-  );
-  bagdes.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards1);
+// const showCards1 = () => {
+//   let output = "";
+//   badgesection.forEach(
+//     ({ title, image, description }) =>
+//     (output += `       
+//       <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
+//         <img class="img-fluid d-block mb-3 mx-auto hvr-grow" src="${image}" alt="Card image cap" width="200">
+//           <div class="text-center font-weight-bolder" style="font-size: 1.3em;">${title}</div>
+//           <div class="text-center text-muted font-weight-bolder p-2">${description}</div>
+//       </div>`)
+//   );
+//   bagdes.innerHTML = output;
+// };
+// document.addEventListener("DOMContentLoaded", showCards1);
 
 
 /* Timeline Section*/

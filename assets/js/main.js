@@ -34,7 +34,7 @@ if(mybutton) {
 let header = $(`
 <nav class="fixed-top black">
 <div class="nav-wrapper">
-    <a href="#!" class="brand-logo"><img src="assets/images/John-Doe1.png"></a>
+    <a href="#!" class="brand-logo"><img src="assets/images/LogoHarshal.png"></a>
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
@@ -96,7 +96,13 @@ let footer = $(`
 <footer class="webintern-footer">
     <div class="footer-left">
       <div class="footer-text">
-        <p>"Develop a passion for learning. If you do, you will never cease to grow."</p>
+        <p>जिंदगी की असली उड़ान अभी बाकी है
+
+        जिंदगी के कई इंतेहाँ अभी बाकी है
+        
+        अभी तो नापी है मुट्ठी भर ज़मीन हमने
+        
+        अभी तो सारा आसमान बाकी है....."</p>
       </div>
       <div class="footer-icons">
       <a href="#" class="linkedin sub-footer-icon">

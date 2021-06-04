@@ -34,6 +34,17 @@ html[data-theme="light"] {
 
 }
 
+.fa-closed-captioning{
+  color:brown;
+}
+
+.fa-youtube{
+  color:red
+}
+.fa-hackerrank{
+  color:green;
+}
+
 html[data-theme="dark"] {
   --bg-mybtn: rgb(230, 109, 129);
   --bg-nav: #6617cb;
