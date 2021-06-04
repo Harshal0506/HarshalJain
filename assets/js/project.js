@@ -55,7 +55,7 @@ const projects = [
   },
   {
     title: "Drum Kit",
-    cardImage: "assets/images/project-page/drumKit.jpg",
+    cardImage: "assets/images/project-page/DrumKit.jpg",
     description:
       "Play Whats in ur Mind",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
