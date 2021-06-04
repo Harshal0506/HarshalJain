@@ -21,7 +21,7 @@ const moocscards = [
   },
   {
     title: "Youtube Creators ",
-    cardImage: "assets/images/education-page/youtube.jpg",
+    cardImage: "assets/images/education-page/Youtube.jpg",
     moocLink: "#",
   },
   
