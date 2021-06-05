@@ -139,15 +139,19 @@ let footer = $(`
     </div>
     <div class="footer-right">
       <h6 class="display-7">Get in Touch</h6>
-      <form style="width:80%; margin-left:7%;">
-        <div class="name">
+      <form  action="mailto:harshaljain0055@gmail.com"
+      method="POST"
+      enctype="multipart/form-data"
+      name="EmailForm"
+      style="width:80%; margin-left:7%;">
+        <div class="Contact-Name">
           <input type="text" name="name" placeholder="Name" id="inputs" required>
         </div>
         <div class="email">
-          <input type="email" name="email"  placeholder="Email"  id="inputs" required>
+          <input type="email" name="Contact-Email"  placeholder="Email"  id="inputs" required>
         </div>
         <div class="msg">
-          <textarea type="text" name="msg" placeholder="Message" id="inputs" required></textarea>
+          <textarea type="text" name="msg" placeholder="Message" id="inputs" name="Contact-Message" required></textarea>
         </div>
         <button class="submit"  type="submit">Send</button>
       </form>
